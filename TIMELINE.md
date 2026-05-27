@@ -137,3 +137,4 @@ FontAwesome provided clean icons.
 The open source community keeps inspiring.
 
 FinWise started as a two day experiment. It became so much more. Your money, your data, your control. :) <3
+This whole project was built under restriction of Iran's internet shutdown. The reason of gaps is due to not having access to github.
