@@ -6,11 +6,19 @@ Build Date: May 27, 2026
 A complete accounting application with 100+ features for individuals, small businesses, and enterprises. Everything runs offline, stores data locally, and respects your privacy. No cloud, no accounts, no subscription fees. Ever.
 
 
+<img width="1852" height="2944" alt="finwise-tab-dashboard-light" src="https://github.com/user-attachments/assets/0f7fb2c1-2728-4f87-81bb-91fd21ae7df5" />
+<img width="1852" height="2944" alt="finwise-tab-dashboard-dark" src="https://github.com/user-attachments/assets/71644c0f-4192-4a60-957a-61d254bf5615" />
+
+
 ## About FinWise
 
 FinWise started as a simple idea: financial software should be private, accessible, and free. The name comes from blending "Financial" with "Wisdom". Just like wisdom helps you make better decisions, FinWise helps you understand and manage your money.
 
 The journey began on May 13, 2026. Two days later, a working version was ready. Since then, it has grown into something much bigger. Today, FinWise version 2.0 is a complete accounting system that never sends your data anywhere. Everything stays on your device.
+
+
+### Dashboard
+
 
 ### What FinWise Helps You Do
 
@@ -107,6 +115,64 @@ Multi Language support includes English, Farsi with full RTL support, and German
 Multi Currency supports USD, EUR, GBP, IRR, TRY, and AMD. Live exchange rates come from a free API with manual fallback.
 
 Data Security means everything is stored locally in IndexedDB. No cloud, no servers, no accounts. Optional AES 256 encryption is available. Auto backup runs every 5 minutes. You can also backup and restore manually. CSV and JSON export are supported.
+
+
+## FinWise Screenshots
+
+### search
+
+<img width="992" height="307" alt="finwise-search" src="https://github.com/user-attachments/assets/9cfae130-b37f-4770-974c-600b9b5522af" />
+<img width="318" height="575" alt="finwise-search-4" src="https://github.com/user-attachments/assets/2c08df69-0cdc-4918-a888-b998e9cea91a" />
+<img width="296" height="559" alt="finwise-search-3" src="https://github.com/user-attachments/assets/9601c988-ab07-4aeb-9015-5b11012f778c" />
+<img width="303" height="566" alt="finwise-search-2" src="https://github.com/user-attachments/assets/9e127527-395d-42a8-af47-19bb3c92c2b6" />
+<img width="295" height="553" alt="finwise-search-1" src="https://github.com/user-attachments/assets/aeada3e7-a86d-4572-88f4-82804d1c012d" />
+
+
+## Tab transactions
+
+<img width="1852" height="978" alt="finwise-tab-transactions-light" src="https://github.com/user-attachments/assets/75be2fcc-3f77-4fd0-91b8-03acd5d07905" />
+<img width="1852" height="978" alt="finwise-tab-transactions-dark" src="https://github.com/user-attachments/assets/6e26794c-76e9-4980-a544-21ec82cfcf7c" />
+
+
+### Tab Inventory
+
+<img width="1852" height="978" alt="finwise-tab-inventory-dark" src="https://github.com/user-attachments/assets/45c5f136-c8a0-4f34-8d63-85a86598e0a7" />
+<img width="1852" height="978" alt="finwise-tab-inventory-light" src="https://github.com/user-attachments/assets/1534ca0f-f017-418b-9857-37c7ff4ae9df" />
+
+
+### Tab Customers
+
+<img width="1852" height="978" alt="finwise-tab-customers-dark" src="https://github.com/user-attachments/assets/1d5f19f9-62d0-4204-83ee-beb20517881a" />
+<img width="1852" height="978" alt="finwise-tab-customers-light" src="https://github.com/user-attachments/assets/29d04f29-a08f-4820-8580-0e7746c4b73f" />
+
+
+### Tab Payroll
+
+<img width="1852" height="978" alt="finwise-tab-payroll-dark" src="https://github.com/user-attachments/assets/7a14f2ff-e5a7-47d9-b990-96de35d300ce" />
+<img width="1852" height="978" alt="finwise-tab-payroll-light" src="https://github.com/user-attachments/assets/4e5353bc-2982-4236-9d48-b0a854a50dde" />
+
+
+### Tab Assets
+
+<img width="1852" height="978" alt="finwise-tab-assets-dark" src="https://github.com/user-attachments/assets/db04fd6d-b890-4820-a997-406afcbefc83" />
+<img width="1852" height="978" alt="finwise-tab-assets-light" src="https://github.com/user-attachments/assets/712df949-0b65-454b-a9d2-a459d041c043" />
+
+
+
+### Tab Bank
+
+<img width="1852" height="978" alt="finwise-tab-bank-dark" src="https://github.com/user-attachments/assets/78e39118-42d6-4ab4-8c74-4bfae28c3bf3" />
+<img width="1852" height="978" alt="finwise-tab-bank-light" src="https://github.com/user-attachments/assets/0107b605-23bd-40b9-95df-0c6191272e59" />
+
+
+### Tab Report
+
+<img width="1852" height="978" alt="finwise-tab-report-dark" src="https://github.com/user-attachments/assets/cd9974a9-dad0-44f4-8ba6-00d72e61d176" />
+<img width="1852" height="978" alt="finwise-tab-report-light" src="https://github.com/user-attachments/assets/b29cf522-8388-45e9-8d6b-4a744563648f" />
+
+
+
+
 
 
 ## Technology Stack
