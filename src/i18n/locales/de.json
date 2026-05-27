@@ -243,6 +243,10 @@
         "top_spending_categories": "Top Ausgabenkategorien"
     },
     "messages": {
+        "customer_deleted": "Kunde gelöscht!",
+        "employee_deleted": "Mitarbeiter gelöscht!",
+        "asset_deleted": "Anlage gelöscht!",
+        "bank_deleted": "Bankkonto gelöscht!",
         "transaction_added": "Transaktion erfolgreich hinzugefügt",
         "transaction_deleted": "Transaktion gelöscht",
         "budget_set": "Budget für {category} festgelegt",

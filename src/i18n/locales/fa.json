@@ -243,6 +243,10 @@
         "top_spending_categories": "دسته‌های پرهزینه"
     },
     "messages": {
+        "customer_deleted": "مشتری حذف شد!",
+        "employee_deleted": "کارمند حذف شد!",
+        "asset_deleted": "دارایی حذف شد!",
+        "bank_deleted": "حساب بانکی حذف شد!",
         "transaction_added": "تراکنش با موفقیت اضافه شد",
         "transaction_deleted": "تراکنش حذف شد",
         "budget_set": "بودجه برای {category} تنظیم شد",

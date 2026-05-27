@@ -1,0 +1,73 @@
+{
+    "name": "FinWise: Accountant Manager",
+    "short_name": "FinWise",
+    "description": "Professional accounting software with double-entry bookkeeping, inventory, payroll, and invoicing.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#dad9eb",
+    "theme_color": "#8b7bc8",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "categories": [
+        "finance",
+        "business",
+        "productivity"
+    ],
+    "icons": [
+        {
+            "src": "https://dahgan.com/web-apps/finwise/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "https://dahgan.com/web-apps/finwise/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "https://dahgan.com/web-apps/finwise/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png",
+            "purpose": "apple"
+        },
+        {
+            "src": "https://dahgan.com/web-apps/finwise/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://dahgan.com/web-apps/finwise/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "https://dahgan.com/web-apps/finwise/screenshot.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "FinWise Dashboard"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Add Transaction",
+            "short_name": "Add",
+            "description": "Quickly add a new transaction",
+            "url": "/?action=add",
+            "icons": [
+                {
+                    "src": "/favicon-32x32.png",
+                    "sizes": "32x32"
+                }
+            ]
+        }
+    ],
+    "related_applications": [],
+    "prefer_related_applications": false
+}

@@ -1,13 +1,14 @@
 import {
   faAddressBook,
   faAddressCard,
-  faAlarmClock,
   faAngry,
   faArchive,
+  faArrowLeft,
   faArrowRight,
   faArrowRotateLeft,
   faBackward,
   faBank,
+  faBars,
   faBell,
   faBellSlash,
   faBirthdayCake,
@@ -45,6 +46,7 @@ import {
   faComment,
   faCommentDots,
   faComments,
+  faCopy,
   faCreditCard,
   faCube,
   faDatabase,
@@ -52,6 +54,7 @@ import {
   faDizzy,
   faDownload,
   faEdit,
+  faEllipsisH,
   faEnvelope,
   faEye,
   faEyeSlash,
@@ -93,6 +96,7 @@ import {
   faGrinTongueWink,
   faGrinWink,
   faHeart,
+  faHistory,
   faHome,
   faHourglass,
   faHouse,
@@ -101,6 +105,7 @@ import {
   faImage,
   faInbox,
   faKey,
+  faKeyboard,
   faKiss,
   faKissBeam,
   faKissWinkHeart,
@@ -112,6 +117,7 @@ import {
   faLaughSquint,
   faLaughWink,
   faLink,
+  faList,
   faLocationDot,
   faLock,
   faMagnifyingGlass,
@@ -130,7 +136,6 @@ import {
   faPen,
   faPhone,
   faPlay,
-  // Core Icons
   faPlus,
   faPlusCircle,
   faPrint,
@@ -183,8 +188,8 @@ import {
   faWallet,
   faWind,
   faXmark,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 // Also import some regular icons if needed
 import {
@@ -197,7 +202,7 @@ import {
   faHeart as faHeartRegular,
   faMap,
   faStar as faStarRegular,
-} from "@fortawesome/free-regular-svg-icons";
+} from '@fortawesome/free-regular-svg-icons'
 
 export const icons = {
   // Main Actions
@@ -223,7 +228,12 @@ export const icons = {
   printer: faPrint,
   scanner: faCamera,
   clear: faTrash,
-
+  image: faImage,
+  copy: faCopy,
+  eye: faEye,
+  upload: faUpload,
+  download: faDownload,
+  
   // Navigation
   dashboard: faChartLine,
   transactions: faReceipt,
@@ -231,7 +241,7 @@ export const icons = {
   customers: faUsers,
   reports: faChartSimple,
   settings: faGear,
-
+  
   // UI Elements
   search: faMagnifyingGlass,
   filter: faFilter,
@@ -242,22 +252,25 @@ export const icons = {
   close: faXmark,
   check: faCheck,
   right: faArrowRight,
+  left: faArrowLeft,
+  arrowLeft: faArrowLeft,
+  arrowRight: faArrowRight,
   show: faEye,
   hide: faEyeSlash,
-
+  
   // Theme
   theme: faPalette,
   dark: faMoon,
   light: faSun,
-
+  
   // Security
   blockchain: faLink,
   quantum: faKey,
-
+  
   // Language
   language: faLanguage,
   globe: faGlobe,
-
+  
   // Common
   home: faHouse,
   homeAlt: faHome,
@@ -269,7 +282,7 @@ export const icons = {
   calendar: faCalendar,
   calendarAlt: faCalendarAlt,
   building: faBuilding,
-
+  
   // Customer related
   user: faUser,
   userCircle: faUserCircle,
@@ -278,31 +291,30 @@ export const icons = {
   location: faLocationDot,
   addressCard: faAddressCard,
   idCard: faIdCard,
-
+  
   // Payroll related
   userTie: faUserTie,
   briefcase: faBriefcase,
   creditCard: faCreditCard,
   userPlus: faUserPlus,
   userMinus: faUserMinus,
-
+  
   // Bank related
   sync: faSync,
   creditcard: faCreditCard,
   qrcode: faQrcode,
   shield: faShield,
-
+  
   // Notifications
   bell: faBell,
   bellRegular: faBellRegular,
   notification: faBell,
-
+  
   // Time
   clock: faClock,
   hourglass: faHourglass,
   stopwatch: faStopwatch,
-  alarm: faAlarmClock,
-
+  
   // Communication
   comment: faComment,
   comments: faComments,
@@ -310,22 +322,21 @@ export const icons = {
   share: faShareAlt,
   envelope: faEnvelope,
   paperPlane: faPaperPlane,
-
+  
   // File operations
-  upload: faUpload,
-  download: faDownload,
+  // upload, download already defined above
   file: faFile,
   fileAlt: faFileAlt,
   fileImage: faFileImage,
   filePdf: faFilePdf,
   fileExcel: faFileExcel,
-
+  
   // Status
   warning: faTriangleExclamation,
   info: faBell,
   error: faTimes,
   success: faCheck,
-
+  
   // Media
   play: faPlay,
   pause: faPause,
@@ -333,7 +344,7 @@ export const icons = {
   volumeUp: faVolumeUp,
   volumeDown: faVolumeDown,
   volumeMute: faVolumeMute,
-
+  
   // Social
   thumbsUp: faThumbsUp,
   thumbsDown: faThumbsDown,
@@ -343,14 +354,14 @@ export const icons = {
   heartRegular: faHeartRegular,
   bookmark: faBookmark,
   bookmarkRegular: faBookmarkRegular,
-
+  
   // Education
   graduationCap: faGraduationCap,
   school: faSchool,
   university: faUniversity,
   book: faBook,
   bookOpen: faBookOpen,
-
+  
   // Technology
   laptop: faLaptop,
   desktop: faDesktop,
@@ -361,7 +372,7 @@ export const icons = {
   cloud: faCloud,
   cloudUpload: faCloudUpload,
   cloudDownload: faCloudDownload,
-
+  
   // Weather
   sun: faSun,
   moon: faMoon,
@@ -370,7 +381,7 @@ export const icons = {
   rainbow: faRainbow,
   wind: faWind,
   snowflake: faSnowflake,
-
+  
   // Emojis/Reactions
   smile: faSmile,
   frown: faFrown,
@@ -381,7 +392,7 @@ export const icons = {
   cry: faSadCry,
   angry: faAngry,
   surprise: faSurprise,
-
+  
   // Additional utilities
   cog: faCog,
   settingsGear: faGear,
@@ -393,13 +404,13 @@ export const icons = {
   flag: faFlag,
   shareIcon: faShareAlt,
   printIcon: faPrint,
-
+  
   // Media controls
   backward: faBackward,
   forward: faForward,
   stepBackward: faStepBackward,
   stepForward: faStepForward,
-
+  
   // File types
   fileWord: faFileWord,
   filePowerpoint: faFilePowerpoint,
@@ -409,12 +420,12 @@ export const icons = {
   fileSignature: faFileSignature,
   fileUpload: faFileUpload,
   fileDownload: faFileDownload,
-
+  
   // Identity
   idBadge: faIdBadge,
   passport: faPassport,
   birthday: faBirthdayCake,
-
+  
   // Calendar operations
   calendarDay: faCalendarDay,
   calendarWeek: faCalendarWeek,
@@ -422,17 +433,17 @@ export const icons = {
   calendarMinus: faCalendarMinus,
   calendarTimes: faCalendarTimes,
   calendarCheck: faCalendarCheck,
-
+  
   // Communication
   commentDots: faCommentDots,
   envelopeRegular: faEnvelopeRegular,
-
+  
   // Misc
   compass: faCompass,
   map: faMap,
   chalkboard: faChalkboard,
   addressBook: faAddressBook,
-
+  
   // Extra
   plusCircle: faPlusCircle,
   editIcon: faPen,
@@ -448,7 +459,7 @@ export const icons = {
   userCircleIcon: faUserCircle,
   addressCardRegular: faAddressCardRegular,
   commentRegular: faCommentRegular,
-
+  
   // Custom aliases
   warningIcon: faTriangleExclamation,
   infoIcon: faBell,
@@ -469,9 +480,14 @@ export const icons = {
   lightModeIcon: faSun,
   languageIconAlt: faLanguage,
   globeIconAlt: faGlobe,
-  timer: faHourglass, // Replaced faTimer with faHourglass
-  trash: faTrash, // Add this line
-  trashAlt: faTrashAlt, // Add this line
-};
+  timer: faHourglass,
+  menu: faBars,
+  more: faEllipsisH,
+  trash: faTrash,
+  history: faHistory,
+  list: faList,
+  keyboard: faKeyboard,
+}
 
-export { FontAwesomeIcon };
+export { FontAwesomeIcon }
+

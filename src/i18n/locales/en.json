@@ -243,6 +243,10 @@
         "top_spending_categories": "Top Spending Categories"
     },
     "messages": {
+        "customer_deleted": "Customer deleted!",
+        "employee_deleted": "Employee deleted!",
+        "asset_deleted": "Asset deleted!",
+        "bank_deleted": "Bank account deleted!",
         "transaction_added": "Transaction added successfully",
         "transaction_deleted": "Transaction deleted",
         "budget_set": "Budget set for {category}",
