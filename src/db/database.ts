@@ -1,4 +1,4 @@
-import Dexie, { Table } from "dexie";
+﻿import Dexie, { Table } from "dexie";
 import { Account, Company, Settings, Transaction } from "../types";
 
 export class AccountantDatabase extends Dexie {
